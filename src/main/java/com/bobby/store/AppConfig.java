@@ -23,7 +23,7 @@ public class AppConfig {
 
     @Bean
     @Lazy
-    @Scope("prototype")
+
     public orderService orderService() {
         if  (paymentGateway.equals("Stripe")) {
             return new orderService(strip());
