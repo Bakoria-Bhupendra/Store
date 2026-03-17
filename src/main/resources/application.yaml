@@ -2,10 +2,10 @@ spring:
   application:
     name: Store
   datasource:
-    hikari:
-      jdbc-url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+      url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
       username: root
       password: zxc22331@NBnb!
+      driver-class-name: com.mysql.cj.jdbc.Driver
 
 stripe:
   apiURL: https://api.stripe.com
