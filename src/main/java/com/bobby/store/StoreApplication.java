@@ -17,7 +17,7 @@ public class StoreApplication {
 		var orderService = context.getBean(orderService.class);
 		var orderService2 = context.getBean(orderService.class);
 		orderService.placeOrder();
-		context.close();
+//		context.close();
 	}
 
 }

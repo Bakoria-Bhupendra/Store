@@ -1,6 +1,10 @@
 spring:
   application:
     name: Store
+  datasource:
+    url: jdbc:mysql://localhost:3306/store?createDatabaseIfNotExist=true
+    username: root
+    password: zxc22331@NBnb!
 
 stripe:
   apiURL: https://api.stripe.com
